@@ -39,6 +39,9 @@
                                     Publish
                                 </button>
                             </x-form>
+                            <a href="{{ route('question.edit', $item) }}" class="hover:underline text-gray-500">
+                                Edit
+                            </a>
                         </x-table.td>
                     </x-table.tr>
                 @endforeach
